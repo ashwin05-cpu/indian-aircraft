@@ -13,146 +13,212 @@ function TimelineSection() {
 
     {
       year: "1932",
-      title: "Birth of the Indian Air Force",
+      title: "Formation of the Indian Air Force",
       icon: <Plane size={20} />,
       description: [
-        "Officially established on 8 October 1932.",
-        "Started with only 4 Westland Wapiti aircraft.",
-        "Initially consisted of 6 RAF-trained officers.",
-        "Known as a small colonial air arm under British rule.",
+        "The Indian Air Force was officially established on 8 October 1932 during British rule.",
+        "No. 1 Squadron became the first operational squadron.",
+        "Initially operated Westland Wapiti aircraft.",
+        "Started as a small auxiliary force under the Royal Air Force (RAF).",
+        "Marked the birth of India's military aviation capability.",
       ],
+      extra:
+        "The early IAF was extremely small in manpower and equipment but laid the foundation for India's future aerospace power.",
     },
 
     {
-      year: "1945",
-      title: "Royal Indian Air Force",
-      icon: <Stars size={20} />,
+      year: "1939 – 1945",
+      title: "World War II Era",
+      icon: <Rocket size={20} />,
       description: [
-        "Served alongside Allied forces during World War II.",
-        "Operations conducted in Burma and North Africa.",
-        "Earned recognition for bravery and tactical flying.",
-        "Received the title 'Royal Indian Air Force'.",
+        "The IAF fought Japanese forces in Burma during World War II.",
+        "Conducted bomber escort, reconnaissance, and close air support missions.",
+        "Aircraft like Hawker Hurricane, Dakota, and Spitfire were inducted.",
+        "Earned international recognition for combat performance.",
+        "Expanded rapidly in both manpower and operational capability.",
       ],
+      extra:
+        "Because of its wartime achievements, King George VI granted the title 'Royal Indian Air Force' in 1945.",
     },
 
     {
-      year: "1947",
-      title: "First Indo-Pak War",
+      year: "1947 – 1948",
+      title: "Independence & Kashmir War",
       icon: <Shield size={20} />,
       description: [
-        "Supported Indian Army in Kashmir conflict.",
-        "Dakota aircraft airlifted troops into Srinagar.",
-        "Played a decisive role in defending Kashmir.",
-        "Became India's first active combat air force.",
+        "India became independent in 1947.",
+        "Air assets were divided between India and Pakistan.",
+        "IAF airlifted Indian troops into Srinagar during the Kashmir conflict.",
+        "Dakota transport aircraft played a decisive role.",
+        "Successfully defended Jammu & Kashmir from invading forces.",
       ],
+      extra:
+        "This became the first major combat operation of independent India and demonstrated the strategic importance of air mobility.",
     },
 
     {
-      year: "1954",
-      title: "First Indian Air Chief",
+      year: "1950s",
+      title: "Republic Era & Jet Modernization",
       icon: <Plane size={20} />,
       description: [
-        "Subroto Mukerjee became first Indian Air Chief.",
-        "Widely known as Father of the Indian Air Force.",
-        "Led modernization and indigenous expansion.",
-        "Strengthened post-independence air capability.",
+        "The word 'Royal' was removed after India became a republic.",
+        "Officially renamed as the Indian Air Force.",
+        "Transitioned into the jet age with modern fighter aircraft.",
+        "Focused on indigenous growth and modernization.",
+        "Expanded operational infrastructure across India.",
       ],
+      extra:
+        "This period marked the transformation from a colonial air arm into a sovereign national air force.",
+    },
+
+    {
+      year: "1960 – 1961",
+      title: "Goa Liberation & UN Missions",
+      icon: <Radar size={20} />,
+      description: [
+        "Participated in UN operations in Congo.",
+        "Conducted Operation Vijay during liberation of Goa.",
+        "Bombed Portuguese airfields and military targets.",
+        "Provided close air support to Indian ground forces.",
+        "Helped integrate Goa into the Indian Union.",
+      ],
+      extra:
+        "The IAF demonstrated both expeditionary and humanitarian operational capabilities during this period.",
+    },
+
+    {
+      year: "1962",
+      title: "Sino-Indian War",
+      icon: <Shield size={20} />,
+      description: [
+        "IAF was mainly used for transport and logistics roles.",
+        "Combat air power remained largely underutilized.",
+        "India recognized weaknesses in air defense preparedness.",
+        "Triggered major modernization initiatives.",
+        "Improved future focus on rapid response capability.",
+      ],
+      extra:
+        "The war became a turning point that accelerated India's military aviation modernization programs.",
     },
 
     {
       year: "1965",
-      title: "1965 Indo-Pak Air War",
+      title: "Indo-Pak Air War",
       icon: <Rocket size={20} />,
       description: [
-        "First major full-scale air war for India.",
-        "Folland Gnat earned nickname 'Sabre Slayer'.",
-        "IAF heavily engaged Pakistan Air Force.",
-        "Improved tactical combat doctrine significantly.",
+        "First major air war between India and Pakistan.",
+        "Folland Gnat became famous as the 'Sabre Slayer'.",
+        "IAF prevented Pakistan from gaining air superiority.",
+        "MiG-21 and HF-24 Marut were inducted afterward.",
+        "Para Commandos were also introduced during this era.",
       ],
+      extra:
+        "The conflict gave the IAF its first true experience in modern aerial warfare and tactical air combat.",
     },
 
     {
       year: "1971",
       title: "Bangladesh Liberation War",
-      icon: <Shield size={20} />,
+      icon: <Stars size={20} />,
       description: [
-        "Achieved rapid air superiority.",
-        "Destroyed strategic enemy infrastructure.",
-        "Supported liberation of Bangladesh.",
-        "Established IAF as dominant regional power.",
+        "One of the greatest victories in IAF history.",
+        "Achieved complete air superiority in East Pakistan.",
+        "Flew over 16,000 sorties during the conflict.",
+        "Destroyed enemy runways and infrastructure.",
+        "Played a decisive role in the liberation of Bangladesh.",
       ],
+      extra:
+        "The 1971 war established the IAF as one of the most dominant regional air powers in Asia.",
     },
 
     {
-      year: "1984",
-      title: "India Goes to Space",
-      icon: <Stars size={20} />,
+      year: "1984 – 1988",
+      title: "Siachen & Regional Operations",
+      icon: <Radar size={20} />,
       description: [
-        "Rakesh Sharma became first Indian in space.",
-        "Mission aboard Soviet Salyut-7 spacecraft.",
-        "Major aerospace milestone for India.",
-        "Famous reply: 'Saare Jahan Se Achha'.",
+        "Conducted Operation Meghdoot in Siachen Glacier.",
+        "Launched Operation Poomalai in Sri Lanka.",
+        "Executed Operation Cactus in the Maldives.",
+        "Demonstrated strategic airlift capability.",
+        "Mastered extreme high-altitude logistics operations.",
       ],
+      extra:
+        "These operations proved the IAF's ability to rapidly deploy forces across difficult terrain and foreign regions.",
     },
 
     {
       year: "1999",
-      title: "Kargil War",
+      title: "Kargil War – Operation Safed Sagar",
       icon: <Rocket size={20} />,
       description: [
-        "Operation Safed Sagar launched by IAF.",
-        "Mirage 2000 performed precision bombing.",
-        "First high-altitude air warfare operation.",
-        "Transformed India's precision strike capability.",
+        "First air war fought at extremely high altitude.",
+        "Mirage 2000 aircraft carried out precision strikes.",
+        "Enemy bunkers and supply routes were destroyed.",
+        "Supported recapture of Tiger Hill.",
+        "Changed India's precision warfare doctrine forever.",
       ],
+      extra:
+        "Operation Safed Sagar became one of the most technologically important campaigns in Indian military aviation history.",
+    },
+
+    {
+      year: "2000s",
+      title: "Modernization Era",
+      icon: <Plane size={20} />,
+      description: [
+        "Su-30MKI became backbone of the IAF fleet.",
+        "AWACS and advanced radar systems inducted.",
+        "Network-centric warfare systems introduced.",
+        "Focus shifted toward indigenous defense technology.",
+        "Precision warfare and electronic warfare capabilities expanded.",
+      ],
+      extra:
+        "The IAF transformed into a highly digitized and network-enabled modern air force.",
     },
 
     {
       year: "2019",
       title: "Balakot Air Strike",
-      icon: <Radar size={20} />,
+      icon: <Shield size={20} />,
       description: [
-        "Conducted deep precision strikes in Balakot.",
-        "Targeted terror infrastructure successfully.",
-        "Showcased long-range strike capability.",
-        "Demonstrated strategic deterrence capability.",
+        "Precision strikes conducted on terror camps in Balakot.",
+        "Demonstrated deep strike capability.",
+        "Showcased strategic deterrence and precision warfare.",
+        "Operation displayed long-range offensive reach.",
+        "Marked a new era of counter-terror air operations.",
       ],
-    },
-
-    {
-      year: "2020",
-      title: "Rafale Era",
-      icon: <Plane size={20} />,
-      description: [
-        "Rafale fighters inducted into the IAF.",
-        "Enhanced electronic warfare capability.",
-        "Improved Beyond Visual Range combat.",
-        "Integrated Meteor and SCALP missiles.",
-      ],
+      extra:
+        "The Balakot strike became one of the most internationally discussed air operations conducted by India.",
     },
 
     {
       year: "2025",
-      title: "Retirement of MiG-21",
-      icon: <Rocket size={20} />,
+      title: "Operation Sindoor",
+      icon: <Radar size={20} />,
       description: [
-        "Served the IAF for more than 60 years.",
-        "Participated in multiple historic wars.",
-        "One of India's most iconic aircraft.",
-        "Marked end of a legendary aviation era.",
+        "One of the most advanced modern IAF operations.",
+        "Used Rafale fighters, BrahMos, SCALP missiles, and drones.",
+        "Integrated electronic warfare and AI-assisted systems.",
+        "Demonstrated multi-domain combat capability.",
+        "Showcased Integrated Air Command and Control System (IACCS).",
       ],
+      extra:
+        "Operation Sindoor reflected the IAF's transition into AI-driven network-centric warfare and advanced aerospace dominance.",
     },
 
     {
-      year: "2026",
+      year: "Present Day",
       title: "Modern Indian Air Force",
-      icon: <Radar size={20} />,
+      icon: <Stars size={20} />,
       description: [
-        "AMCA and Tejas Mk1A under development.",
-        "AI-assisted warfare systems expanding.",
-        "Drone and indigenous systems increasing.",
-        "Among world's largest combat air forces.",
+        "One of the world's largest air forces.",
+        "Nuclear-capable strategic force.",
+        "Leader in high-altitude and precision warfare.",
+        "Rapidly modernizing with Rafale, Tejas, drones, and AI systems.",
+        "Expanding indigenous missile and radar technology.",
       ],
+      extra:
+        "Today the Indian Air Force stands among the world's most combat-experienced and technologically evolving aerospace powers.",
     },
 
   ]
@@ -169,7 +235,7 @@ function TimelineSection() {
         <div className="h-full w-full bg-[linear-gradient(rgba(255,0,0,0.15)_1px,transparent_1px),linear-gradient(90deg,rgba(255,0,0,0.15)_1px,transparent_1px)] bg-[size:50px_50px]"></div>
       </div>
 
-      <div className="relative max-w-5xl mx-auto">
+      <div className="relative max-w-6xl mx-auto">
 
         {/* TITLE */}
         <motion.h2
@@ -188,9 +254,9 @@ function TimelineSection() {
             duration: 1,
           }}
 
-          className="text-center text-4xl md:text-5xl font-black mb-20 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800 tracking-widest"
+          className="text-center text-4xl md:text-5xl font-black mb-20 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-800 tracking-widest mt-12"
         >
-          INDIAN AIR FORCE TIMELINE
+          IAF HISTORY
         </motion.h2>
 
         {/* TIMELINE */}
@@ -297,6 +363,11 @@ function TimelineSection() {
                   ))}
 
                 </ul>
+
+                {/* EXTRA INFO */}
+                <p className="mt-4 text-xs text-red-300 leading-relaxed border-t border-red-800/40 pt-4 italic">
+                  {event.extra}
+                </p>
 
               </motion.div>
 
