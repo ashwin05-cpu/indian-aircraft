@@ -39,7 +39,7 @@ function Home() {
       <HeroSection />
       <SquadronSection />
       <StatsSection />
-      <TimelineSection />
+      
 
       {/* MAIN CONTENT */}
       <section className="max-w-7xl mx-auto px-6 py-24">
