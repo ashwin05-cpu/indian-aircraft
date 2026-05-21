@@ -44,7 +44,7 @@ function LoadingScreen() {
 
           className="text-5xl font-bold text-sky-400"
         >
-          IAF COMMAND
+          Loading Aircraft Database
         </motion.h1>
 
         {/* SUBTITLE */}

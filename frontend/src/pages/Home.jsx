@@ -7,6 +7,7 @@ import SidebarFilters from "../components/SidebarFilters"
 import aircrafts from "../data/aircraftData"
 import StatsSection from "../components/StatsSection"
 import TimelineSection from "../components/TimelineSection"
+import SquadronSection from "../components/SquadronSection"
 
 function Home() {
 
@@ -36,6 +37,7 @@ function Home() {
 
       {/* HERO */}
       <HeroSection />
+      <SquadronSection />
       <StatsSection />
       <TimelineSection />
 

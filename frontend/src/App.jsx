@@ -17,6 +17,7 @@ import Timeline from "./pages/Timeline"
 import SearchResults from "./pages/SearchResults"
 import Contact from "./pages/Contact"
 import Compare from "./pages/Compare"
+import SquadronDetails from "./pages/SquadronDetails"
 
 
 function App() {
@@ -105,6 +106,10 @@ if (loading) {
           <Route
             path="/compare"
             element={<Compare />}
+          />
+          <Route
+            path="/squadron/:id"
+            element={<SquadronDetails />}
           />
 
         </Routes>
